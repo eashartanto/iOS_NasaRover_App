@@ -8,21 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		C2264BC42990843A003F422A /* NasaDailyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2264BC32990843A003F422A /* NasaDailyApp.swift */; };
-		C2264BC62990843A003F422A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2264BC52990843A003F422A /* ContentView.swift */; };
 		C2264BC82990843B003F422A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2264BC72990843B003F422A /* Assets.xcassets */; };
 		C2264BCB2990843B003F422A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2264BCA2990843B003F422A /* Preview Assets.xcassets */; };
 		C2264BCD2990843B003F422A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2264BCC2990843B003F422A /* Persistence.swift */; };
 		C2264BD02990843B003F422A /* NasaDaily.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2264BCE2990843B003F422A /* NasaDaily.xcdatamodeld */; };
+		C2264BD929914F7C003F422A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2264BD829914F7C003F422A /* ContentView.swift */; };
+		C2264BE629916D77003F422A /* ApiObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2264BE529916D77003F422A /* ApiObject.swift */; };
+		C2264BEA29918E8A003F422A /* ApiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2264BE929918E8A003F422A /* ApiViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C2264BC02990843A003F422A /* NasaDaily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NasaDaily.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2264BC32990843A003F422A /* NasaDailyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaDailyApp.swift; sourceTree = "<group>"; };
-		C2264BC52990843A003F422A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C2264BC72990843B003F422A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2264BCA2990843B003F422A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C2264BCC2990843B003F422A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		C2264BCF2990843B003F422A /* NasaDaily.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NasaDaily.xcdatamodel; sourceTree = "<group>"; };
+		C2264BD829914F7C003F422A /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C2264BE529916D77003F422A /* ApiObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiObject.swift; sourceTree = "<group>"; };
+		C2264BE929918E8A003F422A /* ApiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			isa = PBXGroup;
 			children = (
 				C2264BC32990843A003F422A /* NasaDailyApp.swift */,
-				C2264BC52990843A003F422A /* ContentView.swift */,
+				C2264BE529916D77003F422A /* ApiObject.swift */,
+				C2264BE929918E8A003F422A /* ApiViewController.swift */,
+				C2264BD829914F7C003F422A /* ContentView.swift */,
 				C2264BC72990843B003F422A /* Assets.xcassets */,
 				C2264BCC2990843B003F422A /* Persistence.swift */,
 				C2264BCE2990843B003F422A /* NasaDaily.xcdatamodeld */,
@@ -143,10 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2264BE629916D77003F422A /* ApiObject.swift in Sources */,
 				C2264BD02990843B003F422A /* NasaDaily.xcdatamodeld in Sources */,
+				C2264BD929914F7C003F422A /* ContentView.swift in Sources */,
 				C2264BCD2990843B003F422A /* Persistence.swift in Sources */,
-				C2264BC62990843A003F422A /* ContentView.swift in Sources */,
 				C2264BC42990843A003F422A /* NasaDailyApp.swift in Sources */,
+				C2264BEA29918E8A003F422A /* ApiViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
